@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BeginnerDialog</class>
+ <widget class="QDialog" name="BeginnerDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1117</width>
+    <height>726</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>What is Flux?</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <item>
+    <widget class="QLabel" name="label_4">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Ignored">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../flux.qrc">:/images/about</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QFrame" name="frame">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="sizeConstraint">
+         <enum>QLayout::SetFixedSize</enum>
+        </property>
+        <property name="margin">
+         <number>1</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>267</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>IBeamCursor</cursorShape>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;foxFlux&lt;/span&gt; version: &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="textInteractionFlags">
+           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="versionLabel">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="cursor">
+           <cursorShape>IBeamCursor</cursorShape>
+          </property>
+          <property name="text">
+           <string notr="true">0.3.666-beta</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::RichText</enum>
+          </property>
+          <property name="textInteractionFlags">
+           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Hello, new user!
+
+Welcome toFlux, a decentralized cryptocurrency.
+
+This article should answer most of your basic questions about Flux, cryptocurrency, and decentralized currency (As well as their respective uses, and how they work)
+
+To understand Flux, you must first underdstand cryptocurrency. It's a daunting task at first, but once you know it, it's simple.
+
+Cryptocurrency is just like your United States Dollars or European Euro, it can be exchanged, held, etc. It has all the functions that any currency should have, but there are
+a few major distinctions between decentralized 'crypto' currency and centralized 'fiat' currency. The first major difference is that crypto-money has no central bank, it is
+governed by its users. That means every single unit of a cryptocurrency is managed, processed, accounted, and minted by its 'network' of users.
+
+This is important because this makes the system almost uncorruptible. There is not central controller that has the ability to mint, track, destroy/invalidate, or in any way
+manipulate such currency.The only way one user could do that is by controlling over 51% of the network's hashpower, but it becomes exponentially more difficult to do
+so as the network increases in size.Most crypto currencies have a 'hard cap' of units, so you won't have to worry about inflation over time.
+
+So all this is play money? Not really. The definition of money is argued differently by many, many groups of people, but it is arguable that if fiat money is real, then so is
+cryptocurrency, many aruge that cryptocurrency is a more viable solution to our 'money problem'. But most can agree that cryptocurrency isn't 'play money' as it resembles
+all the characteristics of real money.
+
+Great! So I can go to the store and by a loaf of bread with some FoxFlux? Not so fast, buddy. Even foxFlux, the largest cryptocurrency weighing in at $10,000,000,000
+USD in volume is only accepted in several hundred stores accross the interent.
+
+So whats the point? I can't buy much with it? I think I'll just stick with my fiat currency! Stop right there and think for a minute. Cryptocurrency is considered by many to be
+superior in design to fiat, as it is decentralized and incredibly difficult to counterfiet, thus the people are given more control over the economy over the government, without
+sacrificing versitility.
+
+But I trust my government! While many might disagree with you, there are many better reasons for using cryptocurrency..
+
+Right, so who creates these FoxFlux? Well, the people do! A bunch of computers group together and verify transactions, and it is almost like a race to verify the most, the
+user who does gets a 'block reward', people also can group up in pools, where they group together their processing power and are much more powerful, then destribute the
+reward based on how much work everybody did.
+
+So FoxFlux can be created out of thin air? How do they have any value? Good question, the people participating in the network have anagreed upon time per block and
+reward per block, plus there is also usually a 'hard limit' on how many Flux can be minted, to prevent too much inflation. They have value because people believe they do,
+currencies that clearly have no potential as a viable currency get dumped by its users or avoided entirely, either way they gain no traction.
+
+Alright, you win, so how do I use FoxFlux? Well your using it right now! To get some initial FoxFlux you must either mine, buy, or beg to have some in your wallet,
+but other then getting as many as you can it is important to pay it forward to new users by getting them attracted to FoxFlux and sometimes give them some of
+your own, because without YOUR support FoxFlux will become worthless and nobody will win in the end.</string>
+       </property>
+       <property name="textInteractionFlags">
+        <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Ok</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../flux.qrc"/>
+  <include location="../foxFlux.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>BeginnerDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>360</x>
+     <y>308</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>BeginnerDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>428</x>
+     <y>308</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
