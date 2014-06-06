@@ -1251,16 +1251,18 @@ unsigned int static FluxAntimatterVortex(const CBlockIndex* pindexLast, int targ
     double t = 0;
     const CBlockIndex *blockReview = BlockLastSolved;
     const CBlockIndex *blockNew;
+    int nm = 10; if(pindexLast->nHeight > 22000) { nm = 5; } 
+    int nx = 90; if(pindexLast->nHeight > 22000) { nm = 88; } 
     while(u <= accountFactor)
     {
         t = blockReview->nTime - blockReview->pprev->nTime;
-        if(t < 10)
+        if(t < nm)
         {
-            t = 10;
+            t = nm;
         }
-        if(t > 90)
+        if(t > nx)
         {
-            t = 90;
+            t = nx;
         }
         o += 3.7;
         o += t/u;        
